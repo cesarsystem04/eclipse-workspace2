@@ -1,0 +1,313 @@
+Development Component Build (2023-05-17 20:43:34 GMT-06:00)
+  Component name: bpm_lcsa_producedlength
+  Component vendor: demo.sap.com
+  SC compartment: MyComponents
+  Configuration: LocalDevelopment
+  Location: localDevelopment
+  Source code location: mogarcia@CARPOLLMOGARCIA
+  DC root folder: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\DCs\demo.sap.com\bpm_lcsa_producedlength\_comp\
+  DC type: Process Composer
+  Host: CARPOLLMOGARCIA
+
+DC Model check:
+   DC is available locally
+   validating dependency to build plugin "sap.com/tc/bpem/bi/bp/buildtool"
+   validating dependency to used DC "sap.com/bie/sca/scdl/contributors/glx"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/contributors/glx"
+   validating dependency to used DC "sap.com/bie/sca/scdl/contributors/mc"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/contributors/mc"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/contributors/xi"
+   validating dependency to used DC "sap.com/bie/sca/scdl/gen"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/gen"
+   validating dependency to used DC "sap.com/bie/sca/scdl/gen/mc"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/gen/mc"
+   validating dependency to used DC "sap.com/bie/sca/scdl/gen/xlf2prop"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/gen/xlf2prop"
+   validating dependency to  public part "MM_Inf" of DC "sap.com/ide/es/config/mc/model/bi"
+   validating dependency to used DC "sap.com/tc/bpem/content/predefs/default"
+   validating dependency to  public part "def_cmp" of DC "sap.com/tc/bpem/content/predefs/default"
+   validating dependency to used DC "sap.com/tc/bpem/content/predefs/types"
+   validating dependency to  public part "def_cmp" of DC "sap.com/tc/bpem/content/predefs/types"
+   validating dependency to  public part "MM_Inf" of DC "sap.com/tc/moin/bi/model/textverticalization"
+   validating dependency to  public part "def" of DC "sap.com/tc/moin/bi/moinext"
+   validating dependency to  public part "libinf" of DC "sap.com/tc/moin/bi/moinlibs"
+   DC model check OK
+
+Start build plugin:
+   using build plugin: sap.com/tc/bpem/bi/bp/buildtool
+   starting build plugin from : C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\bp\buildtool\_comp\gen\default\public\def\
+
+
+
+Build Plugin 'sap.com/tc/bpem/bi/bp/buildtool', Version 7.30 SP 7 (NW750CORE_07_REL, built on 2017-02-24 21:28:22 +0100, CL245679)
+   development component:  bpm_lcsa_producedlength (demo.sap.com)
+      software component:  MyComponents (demo.sap.com)
+                location:  localDevelopment
+                    type:  Process Composer
+           build variant:  default
+         source location:  mogarcia@CARPOLLMOGARCIA
+         output location:  C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default
+       generation folder:  C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t\6433538386DDBF29060382035C7B2D8B
+       plugin start time:  2023-05-17 20:43:35 GMT-06:00
+                 Java VM:  Java HotSpot(TM) 64-Bit Server VM, 25.261-b12 (1.8, Oracle Corporation)
+
+
+General options:
+  convert *.xlf to *.properties: yes
+  include sources for debugging: yes
+ 
+
+
+Checking path lengths for sources
+Path length checks finished in 0.003 seconds
+ 
+Preparing data context..
+Data context preparation finished in 0.03 seconds
+ 
+Creating Ant build file..
+  Creating output file: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\logs\build.xml
+  Using Java class:     com.sap.tc.glx.BuildFileCreator
+Mapped output path "default" of generator "sap.com~bpem_chain/moininit" is not defined.
+MoinInit generator started.
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/default
+MOIN archive found: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\BPEM-CONTENT\sap.com\tc\bpem\content\predefs\default\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~default~def_cmp.zip
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/types
+MOIN archive found: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\SERVICE-COMP\sap.com\tc\bpem\content\predefs\types\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~types~def_cmp.zip
+Metamodels found.
+MoinInit generator started.
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/default
+MOIN archive found: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\BPEM-CONTENT\sap.com\tc\bpem\content\predefs\default\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~default~def_cmp.zip
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/types
+MOIN archive found: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\SERVICE-COMP\sap.com\tc\bpem\content\predefs\types\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~types~def_cmp.zip
+Metamodels found.
+Output folder found.
+Target "Xlf2PropBase" has a dependency on "compile" but no such target exists. Dependency will be ignored.
+Target "ScdlBase" has a dependency on "compile" but no such target exists. Dependency will be ignored.
+Build file creation finished in 0.24 seconds
+ 
+Starting Ant..
+  Using build file:     C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\logs\build.xml
+  Using build target:   build
+  Using Ant version:    1.7.1
+ 
+ScdlBase:
+  [MOINInit] Meta models found.
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\ESCONF_BUILDT\sap.com\ide\es\config\mc\model\bi\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~ide~es~config~mc~model_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\bpem\bi\model\flow\_comp\gen\default\public\MM_Inf\lib\moin\glx~ide_xmi.jar
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\model\triggernet\_comp\gen\default\public\MM_Inf\lib\moin\glx~tnet_xmi.jar
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\wsdl20\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~wsdl20_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\xsd1\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~xsd1_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\mie\bi\model\gfw\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~com~sap~mi~gfw~mm~def_assmbl.zip
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
+  [MOINInit] WARNING: [System.err] [Invoked from com.sap.bc.krn.perf.PerfTimes.internal_TRC(PerfTimes.java:103)]
+  [MOINInit] WARNING: [System.err] PerfTimes : loadNativeLayer: loading jperflib failed. no jperflib in java.library.path
+  [MOINInit] DataArea name: DefaultDataArea
+  [MOINInit] Moin initialized in 2242 milliseconds.
+      [echo] Registering folder: gensrc/extcfg for path: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t\6433538386DDBF29060382035C7B2D8B\gensrc\extcfg/
+      [echo] Starting Extension Configuration generator...
+  [gen_scdl] 		[SCDL_GEN] Initializing Scdl Generation...
+  [gen_scdl] 		[SCDL_GEN] Initialization successfully completed.
+  [gen_scdl] 		[SCDL_GEN] Starting retrieval of information from contributors...
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] 		[SCDL_GEN] Information retrieval from contributors successfully completed!
+  [gen_scdl] 		[SCDL_GEN] Starting composite export to SCDL...
+  [gen_scdl] 			[SCDL-EXPORT] Scdl file output location: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t\6433538386DDBF29060382035C7B2D8B/scdl_output\META-INF\bpm_lcsa_producedlength.composite
+  [gen_scdl] 			[SCDL-EXPORT] sca contribution XML output location: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t\6433538386DDBF29060382035C7B2D8B/scdl_output\META-INF\sca-contribution.xml
+  [gen_scdl] 		[SCDL_GEN] Conversion successfully completed!
+     [timer] Extension Configuration generator finished in 1.653 seconds
+ 
+[MOINShutdown] About to shutdown MOIN...
+[MOINShutdown] MOIN shut down in 69 milliseconds.
+ 
+Xlf2PropBase:
+      [echo] Start XLF conversion
+  [xlf2prop] Found 6 XLF files to convert in folder "mc"
+     [timer] XLF conversion finished in 0.104 seconds
+ 
+      [copy] Copying 6 files to C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t\6433538386DDBF29060382035C7B2D8B\xlf_out
+ 
+Bpem:
+  [MOINInit] Meta models found.
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\ESCONF_BUILDT\sap.com\ide\es\config\mc\model\bi\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~ide~es~config~mc~model_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\bpem\bi\model\flow\_comp\gen\default\public\MM_Inf\lib\moin\glx~ide_xmi.jar
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\model\triggernet\_comp\gen\default\public\MM_Inf\lib\moin\glx~tnet_xmi.jar
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\wsdl20\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~wsdl20_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\xsd1\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~xsd1_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\mie\bi\model\gfw\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~com~sap~mi~gfw~mm~def_assmbl.zip
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
+  [MOINInit] DataArea name: DefaultDataArea
+  [MOINInit] Moin initialized in 863 milliseconds.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Metamodel version validation...
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Sanity check is enabled, com.glx.sanity.check system property isn't false.
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/SI_LCSA_AdvarisFileI406_BPM_AsyncInb.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength
+  [BpemTask] WSDL Location:src/wsdl/SI_LCSA_ProducedLength_BPM_AsyncOut.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength
+  [BpemTask] WSDL Location:src/wsdl/rootwsdl_SimpleTimerServices.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/default
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.SourceVersioner compile(host, artifact) - Generating version IDs for sources...
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating rule compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating event definition constraint check.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for event definitions is done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating event definition compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/triggers/startmsg.eventdef#E0E14F862918CC55F52311EDC999025041000001 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/rep/wsdl/empty namespace.types#E01DFA6E15D3A30BF52111ED9AC4025041000001 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/triggers/startmsg.eventdef#E0E14F862918CC55F52311EDC999025041000001 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating task constraint check.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for Tasks is done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating task compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating data mapping validation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Data mapping validation is done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating process constraint check.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask constraintCheck(conn,partitions) - Constraint violation: Assign an administrator to pool "LCSA_I406ProdLength"
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for processes is done
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating process compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/bpmn/lcsa_i406prodlength.bpmn#E007956A7B421DC2F52011ED9647025041000001 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\DCs\demo.sap.com\bpm_lcsa_producedlength\_comp\src\bpmn\lcsa_i406prodlength.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/bpmn/lcsa_i406prodlength.bpmn#E007956A7B421DC2F52011ED9647025041000001 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/add-daytimeduration-to-datetime.function#481F3B2C92375E701AC311DD911F0018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/add-daytimeduration-to-datetime.function#481F3B2C92327C751AC311DDB1750018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/rep/wsdl/condumex.com.mx&cllatincasa&clpp&clbpmproducedlenght.types#E01DFA6E5053B6A4F52111ED8BF4025041000001 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/finite-integer/max.function#481F3B2E9382A3221AC311DDBC930018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/finite-integer/max.function#481F3B2E9376BC471AC311DDC12C0018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/bpmn/lcsa_i406prodlength.bpmn#E007956A7B4906D5F52011EDA57F025041000001 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/bpmn/lcsa_i406prodlength.bpmn#E0E14F865FBDB901F52111ED9BA0025041000001 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/bpmn/lcsa_i406prodlength.bpmn#E0E14F866119E55FF52111EDAA33025041000001 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/bpmn/lcsa_i406prodlength.bpmn#E007956A7B766DCAF52011EDBA80025041000001 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/subtract-datetimes-as-milliseconds.function#481F3B2D92EEEEA21AC311DDCAE70018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/subtract-datetimes-as-milliseconds.function#481F3B2D92EA33B51AC311DDC64D0018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/bpmn/lcsa_i406prodlength.bpmn#E007956A7B4CBF2EF52011ED8515025041000001 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/bpmn/lcsa_i406prodlength.bpmn#E007956A7B82946DF52011ED9F9E025041000001 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/bpmn/lcsa_i406prodlength.bpmn#E007956A7B4D8BEFF52011ED8D1E025041000001 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/add-yearmonthduration-to-datetime.function#481F3B2C92623F021AC311DD9EFD0018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/add-yearmonthduration-to-datetime.function#481F3B2C925D84171AC311DD96480018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/current-datetime.function#481F3B2C927A0CC01AC311DDC4830018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/current-datetime.function#481F3B2C9277C2D21AC311DD93AA0018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm_lcsa_producedlength/_comp/src/bpmn/lcsa_i406prodlength.bpmn#E007956A7B421DC2F52011ED9647025041000001 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'LCSA_I406ProdLength' ...
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] WS Provisioning post processing started for %d artifacts found.
+  [BpemTask] 1
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] demo.sap.com/bpm_lcsa_producedlength/StartMsg
+  [BpemTask] SI_LCSA_AdvarisFileI406_BPM_AsyncInb
+  [BpemTask] urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght
+  [BpemTask] SI_LCSA_AdvarisFileI406_BPM_AsyncInb
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/SI_LCSA_AdvarisFileI406_BPM_AsyncInb.wsdl
+  [BpemTask] META-INF/wsdl/demosapcom2Fbpmlcsaproducedlength2FStartMsg/src/wsdl/SI_LCSA_AdvarisFileI406_BPM_AsyncInb.wsdl
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/demosapcom/bpmlcsaproducedlength/StartMsg
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx\demo.sap.com~bpm_lcsa_producedlength.wsar archive is generated
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyMcArchive(File publicFolder) -Including Mass Configuration archive into sda
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlFiles(File scdlFolder) - Including SCDL files into sda
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx/bpm_lcsa_producedlength.composite
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx/sca-contribution.xml
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - Including SCDL globalization files into sda
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx/7bbe1ad6-bc93-4ba4-ad0d-357526155bab.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx/Business or Technical User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx/Business User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx/cceb2234-68a9-4e93-8c80-1c9209e92d35.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx/No Authentication.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx/Technical User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA execute(name, vendor, location, version, srcDir) -Generating SDA...
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx\demo.sap.com~bpm_lcsa_producedlength.bpem archive is generated
+[MOINShutdown] About to shutdown MOIN...
+[MOINShutdown] MOIN shut down in 64 milliseconds.
+    [delete] Deleting directory C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\ctx
+    [delete] Deleting: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\deploy\sda-dd.xml
+ 
+createPublicParts:
+  [pppacker] Packing public part 'def_cmp'
+  [pppacker] DC being built: bpm_lcsa_producedlength
+  [pppacker] Searching for entity: mc.
+  [pppacker] Checking path: mc
+  [pppacker] Checking path: rep
+  [pppacker] Checking path: src
+  [pppacker] Packed  13 files for entity mc (Model Folder Tree)
+  [pppacker] DC being built: bpm_lcsa_producedlength
+  [pppacker] Searching for entity: rep.
+  [pppacker] Checking path: mc
+  [pppacker] Checking path: rep
+  [pppacker] Checking path: src
+  [pppacker] Packed   3 files for entity rep (Model Folder Tree)
+  [pppacker] DC being built: bpm_lcsa_producedlength
+  [pppacker] Searching for entity: src.
+  [pppacker] Checking path: mc
+  [pppacker] Checking path: rep
+  [pppacker] Checking path: src
+  [pppacker] Packed   7 files for entity src (Model Folder Tree)
+  [pppacker] Packed 3 entities for public part 'def_cmp'
+     [timer] Packing of public part 'def_cmp' finished in 0.082 seconds
+ 
+ 
+build:
+ 
+Ant runtime 8.684 seconds
+ 
+Ant build finished OK
+MOIN forced shutdown initiated.
+ 
+Build plugin finished at 2023-05-17 20:43:44 GMT-06:00
+Total build plugin runtime: 9.608 seconds
+ 
+Build finished with WARNING
+
+==== Post-Processing ====   started at 2023-05-17 20:43:44.724 GMT-06:00
+Comparison of previous and actual build results took: 0.013 seconds
+
+Copy the build results 
+  from: C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\t2\6433538386DDBF29060382035C7B2D8B\default\
+  to:   C:\Users\mogarcia\workspace2.jdi\LocalDevelopment\DCs\demo.sap.com\bpm_lcsa_producedlength\_comp\gen\default\

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefs>
+<pref Action="true">Action<width Action="150"/>
+<name Action="Action"/>
+</pref>
+<pref ObjectName="true">ObjectName<width ObjectName="200"/>
+<name ObjectName="Object Name"/>
+</pref>
+<pref Message="true">Message<width Message="1408"/>
+<name Message="Message"/>
+</pref>
+<pref Url="false">Url<width Url="0"/>
+<name Url="Url"/>
+</pref>
+<pref StartTime="true">StartTime<width StartTime="150"/>
+<name StartTime="Start Time"/>
+</pref>
+<pref EndTime="false">EndTime<width EndTime="0"/>
+<name EndTime="End Time"/>
+</pref>
+<pref Duration="true">Duration<width Duration="150"/>
+<name Duration="Duration"/>
+</pref>
+</prefs>

@@ -1,0 +1,12 @@
+//org.eclipse.ui.commands/state/action.browser.filter.user/org.eclipse.ui.commands.radioState=MY_USER
+//org.eclipse.ui.commands/state/com.sap.aii.pit.browser.view.configobject.filter.selection/org.eclipse.ui.commands.radioState=ALL
+//org.eclipse.ui.commands/state/com.sap.aii.pit.browser.view.configobject.sort.direction/org.eclipse.ui.commands.radioState=ASCENDING
+//org.eclipse.ui.commands/state/com.sap.aii.pit.browser.view.filter.schedule_owner/org.eclipse.ui.commands.radioState=ALL_USERS
+//org.eclipse.ui.commands/state/com.sap.aii.pit.browser.view.job.filter.jobtime/org.eclipse.ui.commands.radioState=ascending
+//org.eclipse.ui.commands/state/com.sap.aii.pit.browser.view.job.filter.user/org.eclipse.ui.commands.radioState=MY_USER
+//org.eclipse.ui.commands/state/com.sap.aii.pit.browser.view.tc.sort.direction/org.eclipse.ui.commands.radioState=DESCENDING
+//org.eclipse.ui.commands/state/com.sap.aii.pit.browser.view.tc.toplevel/org.eclipse.ui.commands.radioState=TESTCASE
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+//org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
+eclipse.preferences.version=1

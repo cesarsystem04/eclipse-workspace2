@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.sap.glx.ide.debug.launchConfigurationType">
+<stringAttribute key="Status" value="1"/>
+<stringAttribute key="com.sap.glx.ide.debug.ATTR_DEBUG_COLLABORATION" value="PF.LocalDevelopment[local]:DCs/demo.sap.com/bpm_lcsa_testresult_v2/_comp/src/bpmn/lcsa_i409testresult.bpmn#E05CE2FC47569A9E201211EE995B025041000001"/>
+<stringAttribute key="com.sap.glx.ide.debug.ATTR_DEBUG_PROJECT" value="[LocalDevelopment] bpm_lcsa_testresult_v2"/>
+</launchConfiguration>

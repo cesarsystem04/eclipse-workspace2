@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.QName' i='471DAFAC55EC9E6C814111DCA447003005C6B92C'/>
+<M c='1' q='mc.servicereferences.ServiceReference' i='471DAFAC55EE250E814111DC8ECA003005C6B92C'/>
+<M c='1' q='mc.servicereferences.serviceref_logicalSystem' i='471DAFAC55EFABA2814111DCC1B9003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_authenticationProfile' i='471DAFAC55EFABA5814111DCA3E1003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_qname' i='471DAFAC55F13240814111DCC062003005C6B92C' se='1' ce='1' oe='-1'/>
+<M c='1' q='mc.servicereferences.ServiceReferenceCustomAttributes' i='E071FFE67B8562C5384611E09E32002710A58A9C'/>
+<M c='1' q='mc.servicereferences.ref_CustomAttributes' i='E071FFE6FAC645EF384611E08198002710A58A9C' se='1' ce='-1' oe='-1'/>
+<mc.logicalsystem.QName m:c='1' m:i='E012BF1E15850576F52111ED80D1025041000001' name='SI_LCSA_AdvarisFileI406_BPM_AsyncInb' namespace='urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E012BF1E1585C058F52111EDC4FE025041000001' id='13a2ed51-3cfb-48cb-a8ef-4a8ef45a7e47' type='WS' bindingType='WS' scdlBindingType='ws'/>
+<mc.logicalsystem.QName m:c='1' m:i='E012BF1E503F1C25F52111EDC979025041000001' name='SI_LCSA_ProducedLength_BPM_AsyncOut' namespace='urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E012BF1E503F4682F52111EDC70B025041000001' id='df510202-1fe1-44b0-a875-9f9ec891652e' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.logicalsystem.QName m:c='1' m:i='E012BF1ED4754151F52111EDB795025041000001' name='SampleTimer' namespace='http://sap.com/glx/sampletimer/'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E012BF1ED4754152F52111ED9480025041000001' id='64289b24-98a0-4258-b405-6de27f056a12' type='WS' bindingType='WS' scdlBindingType='ws'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B918417EB1DDAEF52411ED90B0025041000001' key='senderPartyName' value=''/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B918417EB1DDAFF52411EDC452025041000001' key='senderServiceName' value='BC_BPM'/>
+<mc.servicereferences.serviceref_logicalSystem c='1'>
+<L f='local:E012BF1E1579E220F52111EDBB43025041000001' s='E012BF1E1585C058F52111EDC4FE025041000001'/>
+<L f='local:E012BF1E503C11D9F52111EDA060025041000001' s='E012BF1E503F4682F52111EDC70B025041000001'/>
+<L f='local:4925559F5D230461B6FD11DD82620018717335EB' s='E012BF1ED4754152F52111ED9480025041000001'/>
+</mc.servicereferences.serviceref_logicalSystem>
+<mc.servicereferences.serviceref_authenticationProfile c='1'>
+<L f='local:E012BF1E1583F83CF52111EDCDDD025041000001' s='E012BF1E1585C058F52111EDC4FE025041000001'/>
+<L f='local:E012BF1E1583F83CF52111EDCDDD025041000001' s='E012BF1E503F4682F52111EDC70B025041000001'/>
+<L f='local:E012BF1E1583F83CF52111EDCDDD025041000001' s='E012BF1ED4754152F52111ED9480025041000001'/>
+</mc.servicereferences.serviceref_authenticationProfile>
+<mc.servicereferences.serviceref_qname c='1'>
+<L f='E012BF1E15850576F52111ED80D1025041000001' s='E012BF1E1585C058F52111EDC4FE025041000001'/>
+<L f='E012BF1E503F1C25F52111EDC979025041000001' s='E012BF1E503F4682F52111EDC70B025041000001'/>
+<L f='E012BF1ED4754151F52111EDB795025041000001' s='E012BF1ED4754152F52111ED9480025041000001'/>
+</mc.servicereferences.serviceref_qname>
+<mc.servicereferences.ref_CustomAttributes c='1'>
+<L f='E0B918417EB1DDAEF52411ED90B0025041000001' s='E012BF1E503F4682F52111EDC70B025041000001'/>
+<L f='E0B918417EB1DDAFF52411EDC452025041000001' s='E012BF1E503F4682F52111EDC70B025041000001'/>
+</mc.servicereferences.ref_CustomAttributes>
+</Partition>

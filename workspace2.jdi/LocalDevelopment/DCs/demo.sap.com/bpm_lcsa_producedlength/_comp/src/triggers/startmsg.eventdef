@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/glx/ide' i='1' v='2.0.0'/>
+<C n='sap.com/tc/moin/textverticalization' i='2' v='2.0.0'/>
+<C n='sap.com/tc/moin/util' i='3' v='1.0.0'/>
+<M c='1' q='Galaxy.Workflow.MessageEventDefinition' i='47BEE014D666B539E15411DCB9A7001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.MessageEventDefinitionHasOperation' i='47C2D91202ED4EB5E3B311DCC463001558C33B4F' se='1' ce='-1' oe='-1'/>
+<M c='3' q='properties.PropertyBag' i='493E63563C546320C5EC11DD9396001999375840'/>
+<properties.PropertyBag m:c='3' m:i='E08065FB29190B92F52311ED9795025041000001' id='PartitionCreationInfo'>
+<properties key='creatorId' value='com.sap.glx.ide'/>
+<properties key='creatorVersion' value='2.0.0'/>
+</properties.PropertyBag>
+<Galaxy.Workflow.MessageEventDefinition m:c='1' m:i='E0E14F862918CC55F52311EDC999025041000001' nameTranslatable='false' documentationTranslatable='true'>
+<name maxWidth='255' originalText='StartMsg' resType='generaltext' translate='false' transUnitId='2918CC56F52311ED8323025041000001'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='2918E170F52311EDA5EA025041000001'/>
+</Galaxy.Workflow.MessageEventDefinition>
+<Galaxy.Workflow.MessageEventDefinitionHasOperation c='1'>
+<L f='local:E01DFA6E15E33828F52111EDAE9A025041000001' s='E0E14F862918CC55F52311EDC999025041000001'/>
+</Galaxy.Workflow.MessageEventDefinitionHasOperation>
+</Partition>

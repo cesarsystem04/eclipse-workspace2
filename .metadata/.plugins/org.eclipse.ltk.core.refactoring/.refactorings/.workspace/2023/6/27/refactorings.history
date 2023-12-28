@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;LocalDevelopment~bpm_lcsa_producedlength~demo.sap.com&apos;" deleteContents="false" description="Delete resource &apos;LocalDevelopment~bpm_lcsa_producedlength~demo.sap.com&apos;" element1="/LocalDevelopment~bpm_lcsa_producedlength~demo.sap.com" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1688084538460"/>
+</session>

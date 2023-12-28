@@ -1,0 +1,10 @@
+//DPO/DPO=Host<podev-scm-1>,InstanceNumber<11>,Secure<false>,Domain<DPO>;
+//QPO/QPO=Host<poqasscm-2>,InstanceNumber<0>,Secure<false>,Domain<QPO>;Host<poqasscm-2>,InstanceNumber<1>,Secure<false>,Domain<QPO>;
+AutoDetectLocalSystem=false
+DPO=Host<podev-scm-1>,InstanceNumber<10>,Secure<false>;Host<podev-scm-1.condumex.mx>,InstanceNumber<11>,Secure<false>;
+DefaultSAPSystem=POP
+InstanceHistory=Host<poqasscm-2.condumex.com.mx>,InstanceNumber<0>,Secure<false>;Host<podev-scm-1.condumex.mx>,InstanceNumber<10>,Secure<false>;Host<podev-scm-1>,InstanceNumber<11>,Secure<false>;Host<cdx-popro-2>,InstanceNumber<0>,Secure<false>;Host<podev-scm-1.condumex.mx>,InstanceNumber<11>,Secure<false>,Domain<DPO>;Host<poqasscm-2>,InstanceNumber<1>,Secure<false>,Domain<QPO>;
+POP=Host<cdx-popro-2>,InstanceNumber<0>,Secure<false>;Host<cdx-popro-2>,InstanceNumber<1>,Secure<false>;
+QPO=Host<poqasscm-2.condumex.com.mx>,InstanceNumber<0>,Secure<false>;Host<poqasscm-2>,InstanceNumber<1>,Secure<false>;
+SAPSystems=POP;DPO;QPO/QPO;
+eclipse.preferences.version=1

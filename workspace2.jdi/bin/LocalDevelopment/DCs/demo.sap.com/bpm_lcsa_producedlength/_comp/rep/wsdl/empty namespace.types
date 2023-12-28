@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/tc/esmp/model/xsd1' i='1' v='1.0.0'/>
+<M c='1' q='XSD1.ElementDeclarationsForSchema' i='469C6D400C4DCDF84560411F368FD039C03CB967' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.XsdSchemaDocument' i='469C6D402172D8D944DF4AAE11EDBA7FA5E4BC95' ova='attributes'/>
+<M c='1' q='XSD1.SchemaForImportLocation' i='469C6D402D8A07D14AD74B740627EAB71F556B1F' se='1' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.TypeDefinitionForElementDeclaration' i='469C6D40336985B2134640A40FFEE35867EBBE13' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.DirectivesForSchema' i='469C6D4069E819628914433A2C74C54A9CD03731' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.XsdElementDeclaration' i='469C6D4087FB3855FECB4BED2DC9DDBA2FA3696D' ova='attributes'/>
+<M c='1' q='XSD1.XsdImport' i='469C6D40E1E12A1B7EB2430F29B28C55A5E44989' ova='attributes'/>
+<XSD1.XsdSchemaDocument m:c='1' m:i='E01DFA6E15C2F405F52111EDAA55025041000001' namespace='' name='src/wsdl/SI_LCSA_AdvarisFileI406_BPM_AsyncInb.wsdl' attributeFormDefault='unqualified' elementFormDefault='unqualified'/>
+<XSD1.XsdImport m:c='1' m:i='E01DFA6E15D2831EF52111ED8094025041000001' namespace='urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E01DFA6E15D3A30BF52111ED9AC4025041000001' namespace='' name='Data' lexicalForm='qualified' form='qualified' nillable='false' isAbstract='false'/>
+<XSD1.ElementDeclarationsForSchema c='1'>
+<L f='E01DFA6E15C2F405F52111EDAA55025041000001' s='E01DFA6E15D3A30BF52111ED9AC4025041000001'/>
+</XSD1.ElementDeclarationsForSchema>
+<XSD1.SchemaForImportLocation c='1'>
+<L f='local:E01DFA6E15C3E22AF52111EDB103025041000001' s='E01DFA6E15D2831EF52111ED8094025041000001'/>
+</XSD1.SchemaForImportLocation>
+<XSD1.TypeDefinitionForElementDeclaration c='1'>
+<L f='E01DFA6E15D3A30BF52111ED9AC4025041000001' s='local:E01DFA6E15C7C201F52111EDA52E025041000001'/>
+</XSD1.TypeDefinitionForElementDeclaration>
+<XSD1.DirectivesForSchema c='1'>
+<L f='E01DFA6E15C2F405F52111EDAA55025041000001' s='E01DFA6E15D2831EF52111ED8094025041000001'/>
+</XSD1.DirectivesForSchema>
+</Partition>

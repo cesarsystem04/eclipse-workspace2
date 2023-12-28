@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="SI_LCSA_AdvarisFileI406_BPM_AsyncInb" targetNamespace="urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght">
+  <wsdl:documentation>Connection PO to BPM</wsdl:documentation>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>765e318ef42411ed90ac0000003430bf</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="c.torres"/>
+      <changed by="c.torres" on="1684267739076"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:xms:application:xip"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_basic"/>
+    <ifw:interfacePattern p2p="true"/>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="05e65e97dcf53cc2af6eb3a9e427e6fb"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="SI_LCSA_AdvarisFileI406_BPM_AsyncInb">
+        <ifw:isSynchron>false</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>true</ifw:isInbound>
+        <ifw:interfaceCategory>inbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_async"/>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="Data">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">Data</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght</ifw:technicalNamespace>
+        <ifw:VersionID>67176678f41e11ed86730000003430bf</ifw:VersionID>
+        <ifw:xmlNamespace/>
+        <ifw:dataType name="Data" namespace="urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght" swcvId="817b7cf0537d11e6a50cf8060a170c05" uri="name=Data~namespace=urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght~swcvId=817b7cf0537d11e6a50cf8060a170c05"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>817b7cf0537d11e6a50cf8060a170c05</ifw:guid>
+        <ifw:name>SYMIXLATINCASA, 1.0 of www.condumex.com.mx</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:folder>
+        <ifw:guid>d08b49daf42311ed9d440000003430bf</ifw:guid>
+      </ifw:folder>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_05e65e97dcf53cc2af6eb3a9e427e6fb_ifmmessif</name>
+        <namespace>urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_SI_LCSA_AdvarisFileI406_BPM_AsyncInb"/>
+  <wsdl:types>
+    <xsd:schema xmlns:p7="urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import namespace="urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght"/>
+      <xsd:element name="Data" type="p7:Data"/>
+    </xsd:schema>
+    <xsd:schema xmlns="urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:condumex.com.mx:Latincasa:pp:BPMProducedLenght">
+      <xsd:complexType name="Data">
+        <xsd:sequence>
+          <xsd:element name="GR">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="PONo" type="xsd:string"/>
+                <xsd:element name="OPNo" type="xsd:string"/>
+                <xsd:element name="TransDate" type="xsd:string"/>
+                <xsd:element name="TransType" type="xsd:string"/>
+                <xsd:element name="MatNo" type="xsd:string"/>
+                <xsd:element name="Quantity" type="xsd:string"/>
+                <xsd:element name="UoM" type="xsd:string"/>
+                <xsd:element name="GrossW" type="xsd:string"/>
+                <xsd:element name="NetW" type="xsd:string"/>
+                <xsd:element name="NomW" type="xsd:string"/>
+                <xsd:element name="UoMw" type="xsd:string"/>
+                <xsd:element name="BatchNo" type="xsd:string"/>
+                <xsd:element name="BatchNoSAP" type="xsd:string"/>
+                <xsd:element name="SLoc" type="xsd:string"/>
+                <xsd:element name="Plant" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="MaterialBatch">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element maxOccurs="unbounded" name="MB">
+                        <xsd:complexType>
+                          <xsd:sequence>
+                            <xsd:element minOccurs="0" name="CharName" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="CharValue" type="xsd:string"/>
+                          </xsd:sequence>
+                          <xsd:attribute name="Type" type="xsd:string" use="required"/>
+                        </xsd:complexType>
+                      </xsd:element>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="Type" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="Data">
+    <wsdl:documentation/>
+    <wsdl:part element="Data" name="Data"/>
+  </wsdl:message>
+  <wsdl:portType name="SI_LCSA_AdvarisFileI406_BPM_AsyncInb">
+    <wsdl:documentation>Connection PO to BPM</wsdl:documentation>
+    <wsdl:operation name="SI_LCSA_AdvarisFileI406_BPM_AsyncInb">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_SI_LCSA_AdvarisFileI406_BPM_AsyncInb"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:Data"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_LCSA_AdvarisFileI406_BPM_AsyncInbBinding" type="p1:SI_LCSA_AdvarisFileI406_BPM_AsyncInb">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="SI_LCSA_AdvarisFileI406_BPM_AsyncInb">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

@@ -1,0 +1,5 @@
+defaultVendor=demo.sap.com
+defaultVendor_HISTORY_LIST=demo.sap.com
+dialog.pref.build.option=true
+eclipse.preferences.version=1
+ignorePackNameReservationWarnings=true

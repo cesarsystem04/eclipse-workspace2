@@ -1,0 +1,5 @@
+com.sap.ide.xpi.ui.common.enable.esr.auto.login=true
+com.sap.ide.xpi.ui.common.history=PODEV podev-scm-1.condumex.mx 51000 0 false ;POQAS poqasscm-2.condumex.com.mx 50000 0 false ;POPRD cdx-popro-2.condumex.com.mx 50000 0 false ;
+com.sap.ide.xpi.ui.common.system.recent=POPRD cdx-popro-2.condumex.com.mx 50000 0 false ;POQAS poqasscm-2.condumex.com.mx 50000 0 false ;PODEV podev-scm-1.condumex.mx 51000 0 false ;
+com.sap.ide.xpi.ui.common.system.user=PODEV c.torres c.torres;POQAS c.torres c.torres;
+eclipse.preferences.version=1

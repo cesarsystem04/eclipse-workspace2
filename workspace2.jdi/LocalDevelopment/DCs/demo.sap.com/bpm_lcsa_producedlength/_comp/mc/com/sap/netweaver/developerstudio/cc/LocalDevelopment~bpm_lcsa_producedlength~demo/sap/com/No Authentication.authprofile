@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<C n='sap.com/tc/moin/textverticalization' i='2' v='2.0.0'/>
+<M c='1' q='mc.authentication.AuthenticationProfile' i='471DA641B876CFC1813B11DCC1C3003005C6B92C'/>
+<mc.authentication.AuthenticationProfile m:c='1' m:i='E012BF1E15817637F52111ED97B6025041000001' name='No Authentication' type='NO_AUTHENTICATION'>
+<displayName maxWidth='120' originalText='No Authentication' resType='label' translate='false' transUnitId='1580C7DAF52111EDA6EF025041000001' resName='No Authentication.ap.name'/>
+<description maxWidth='120' originalText='Profile for service invocation without authentication.' resType='description' translate='false' transUnitId='1580C7D9F52111ED8217025041000001' resName='No Authentication.ap.description'/>
+</mc.authentication.AuthenticationProfile>
+</Partition>
