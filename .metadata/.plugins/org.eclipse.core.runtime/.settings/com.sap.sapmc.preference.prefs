@@ -1,10 +1,11 @@
-//DPO/DPO=Host<podev-scm-1>,InstanceNumber<11>,Secure<false>,Domain<DPO>;
+//DPO/DPO=Host<podev-scm-1.condumex.mx>,InstanceNumber<11>,Secure<false>,Domain<DPO>;
+//DPO/POP=Host<cdx-popro-2>,InstanceNumber<0>,Secure<false>,Domain<DPO>;Host<cdx-popro-2.condumex.mx>,InstanceNumber<1>,Secure<false>,Domain<DPO>;
+//PRD/POP=Host<cdx-popro-2>,InstanceNumber<0>,Secure<false>,Domain<PRD>;Host<cdx-popro-2.condumex.com.mx>,InstanceNumber<1>,Secure<false>,Domain<PRD>;
 //QPO/QPO=Host<poqasscm-2>,InstanceNumber<0>,Secure<false>,Domain<QPO>;Host<poqasscm-2>,InstanceNumber<1>,Secure<false>,Domain<QPO>;
-AutoDetectLocalSystem=false
 DPO=Host<podev-scm-1>,InstanceNumber<10>,Secure<false>;Host<podev-scm-1.condumex.mx>,InstanceNumber<11>,Secure<false>;
-DefaultSAPSystem=POP
-InstanceHistory=Host<poqasscm-2.condumex.com.mx>,InstanceNumber<0>,Secure<false>;Host<podev-scm-1.condumex.mx>,InstanceNumber<10>,Secure<false>;Host<podev-scm-1>,InstanceNumber<11>,Secure<false>;Host<cdx-popro-2>,InstanceNumber<0>,Secure<false>;Host<podev-scm-1.condumex.mx>,InstanceNumber<11>,Secure<false>,Domain<DPO>;Host<poqasscm-2>,InstanceNumber<1>,Secure<false>,Domain<QPO>;
+DefaultSAPSystem=PRD/POP
+InstanceHistory=Host<poqasscm-2.condumex.com.mx>,InstanceNumber<0>,Secure<false>;Host<podev-scm-1.condumex.mx>,InstanceNumber<10>,Secure<false>;Host<cdx-popro-2.condumex.com.mx>,InstanceNumber<1>,Secure<false>,Domain<PRD>;Host<podev-scm-1>,InstanceNumber<11>,Secure<false>;Host<cdx-popro-2>,InstanceNumber<0>,Secure<false>;Host<poqasscm-2>,InstanceNumber<0>,Secure<false>,Domain<QPO>;Host<podev-scm-1.condumex.mx>,InstanceNumber<11>,Secure<false>,Domain<DPO>;Host<poqasscm-2>,InstanceNumber<1>,Secure<false>,Domain<QPO>;Host<cdx-popro-2.condumex.mx>,InstanceNumber<1>,Secure<false>,Domain<DPO>;
 POP=Host<cdx-popro-2>,InstanceNumber<0>,Secure<false>;Host<cdx-popro-2>,InstanceNumber<1>,Secure<false>;
 QPO=Host<poqasscm-2.condumex.com.mx>,InstanceNumber<0>,Secure<false>;Host<poqasscm-2>,InstanceNumber<1>,Secure<false>;
-SAPSystems=POP;DPO;QPO/QPO;
+SAPSystems=PRD/POP;DPO/DPO;QPO/QPO;
 eclipse.preferences.version=1
