@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 INDEX VERSION 1.129+C:\Users\c.torres\eclipse-workspace2\.metadata\.plugins\org.eclipse.jdt.core
+=======
+INDEX VERSION 1.130+C:\Users\c.torres\eclipse-workspace2\.metadata\.plugins\org.eclipse.jdt.core
+>>>>>>> parent of 90fefd6 (Cambios por publicación del requerimiento LAT00266.)
 2887973091.index
 3852244655.index
 401767567.index

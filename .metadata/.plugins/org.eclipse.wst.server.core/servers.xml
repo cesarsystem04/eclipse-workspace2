@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
+<<<<<<< HEAD
   <server auto-publish-setting="1" hostname="podev-scm-1" id="sapserver_DPO/DPO" id-set="true" name="SAP Server&lt;DPO/DPO&gt;" runtime-id="sapruntime" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="68">
     <map SYSTEM_NAME="DPO/DPO" key="generic_server_instance_properties" number="11"/>
   </server>
@@ -8,5 +9,15 @@
   </server>
   <server auto-publish-setting="1" hostname="cdx-popro-2" id="sapserver_PRD/POP" id-set="true" name="SAP Server&lt;PRD/POP&gt;" runtime-id="sapruntime" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="56">
     <map SYSTEM_NAME="PRD/POP" key="generic_server_instance_properties" number="1"/>
+=======
+  <server auto-publish-setting="1" hostname="podev-scm-1" id="sapserver_DPO" id-set="true" name="SAP Server&lt;DPO&gt;" runtime-id="sapruntime" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="55">
+    <map SYSTEM_NAME="DPO" key="generic_server_instance_properties" number="11"/>
+  </server>
+  <server auto-publish-setting="1" hostname="poqasscm-2" id="sapserver_QPO/QPO" id-set="true" name="SAP Server&lt;QPO/QPO&gt;" runtime-id="sapruntime" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="12">
+    <map SYSTEM_NAME="QPO/QPO" key="generic_server_instance_properties" number="1"/>
+  </server>
+  <server auto-publish-setting="1" hostname="cdx-popro-2" id="sapserver_POP" id-set="true" name="SAP Server&lt;POP&gt;" runtime-id="sapruntime" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="6">
+    <map SYSTEM_NAME="POP" key="generic_server_instance_properties" number="1"/>
+>>>>>>> parent of 90fefd6 (Cambios por publicación del requerimiento LAT00266.)
   </server>
 </servers>

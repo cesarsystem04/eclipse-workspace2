@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<<<<<<< HEAD
 <libraryInfo home="C:\Program Files\Java\jre-1.8" version="1.8.0_411">
+=======
+<libraryInfo home="C:\Program Files\Java\jre-1.8" version="1.8.0_381">
+>>>>>>> parent of 90fefd6 (Cambios por publicación del requerimiento LAT00266.)
 <bootpath>
 <entry path="C:\Program Files\Java\jre-1.8\lib\resources.jar"/>
 <entry path="C:\Program Files\Java\jre-1.8\lib\rt.jar"/>

@@ -1,7 +1,7 @@
-ESR\ Host=POQASSCM-2.condumex.com.mx
-ESR\ Http\ Port=50000
-ESR\ Https\ Port=
-ESR\ System=POQAS
+ESR\ Host=podev-scm-1.condumex.mx
+ESR\ Http\ Port=51000
+ESR\ Https\ Port=-1
+ESR\ System=PODEV
 Recent=PODEV podev-scm-1.condumex.mx 51000 <blank> false;POQAS POQASSCM-2.condumex.com.mx 50000 <blank> false
 Secure\ Connection\ (HTTPs)=false
 eclipse.preferences.version=1
